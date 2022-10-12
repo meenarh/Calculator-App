@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 
-Live view: meenarh.github.io
+Live view: https://calculator-app.aminatahmed.repl.co/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
