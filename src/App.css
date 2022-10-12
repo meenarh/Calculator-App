@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex{
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin: 0 auto;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  border-radius:15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.btn{
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  background: #FEFBFA;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#operators{
+  background: #FCBF49;
+}
+
+#equalto{
+  background: #06D6A0;
+  width: 110px;
+}
+
+.flex input {
+  width:249px;
+  height: 75px;
+  outline: none;
+  border: none;
+  text-align: right;
+  margin-top: 10px;
+  border-radius: 10px;
+}
